@@ -1,0 +1,103 @@
+{
+	"Code":"amaz",
+	"Culture":"amaz",
+	"Name":"Amazones",
+	"Emblem":"session/portraits/emblems/emblem_hellenes.png",
+	"History":"The Amazons are a nation of all-female warriors in Greek mythology and Classical antiquity. Amazonian raiders were often depicted in battle with Greek warriors in amazonomachies in classical art. Although much of their existence is folk and legend, the stories are likely based on strong females who fend for themselves while their men were out to war. From the Early Modern period, their name has become a term for woman warriors in general, and female cavalry in particular.",
+	"Music":[
+		{"File":"Harvest_Festival.ogg", "Type":"peace"},
+		{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+		{"File":"The_Hellespont.ogg", "Type":"peace"}
+	],
+	"Factions":
+	[
+		{
+			"Name":"Amazones",
+			"Description":"Hellenistic female-only tribe",
+			"Technologies":
+			[
+				{
+					"Name":"Unkownn",
+					"History":"Unknown",
+					"Description":"Unknown"
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name":"Orithyia",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"In Greek and Roman legendary history, Orithyia, or the woman raging in the mountains, was the daughter of Marpesia. Upon the death of her mother, Orithyia became the new queen of the Amazons. She co-ruled with Antiope, who some authorities say was her sister. She was famous for her perpetual virginity. Her war techniques were outstanding and brought much honor to the Amazon empire. Orithya besieged Athens, however in the battle her sister Antiope was killed. Orithyia built a tomb for Antiope after completing a treaty with the Athenians. In the battles Orithya had received serious injuries and ultimately died of these. She was buried on route home by her army. Orithyia's successor was Penthesilea."
+				},
+				{
+					"Name":"Penthesilea",
+					"Class":"",
+					"Armament":"",
+					"Emblem":"",
+					"History":"The daughter of Ares and Otrera, according to mythology, and the sister of Hippolyta, Antiope and Melanippe. She is said to have fought in the Trojan War. Penthesilea had killed her sister Hippolyta with a spear when they were hunting deer; this accident caused Penthesilea so much grief that she wished only to die, but as a warrior and an Amazon, she had to do so honorably and in battle. She therefore was easily convinced to join in the Trojan War, fighting on the side of Troy's defenders."
+				}
+			]
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name":"Unknown",
+			"History":"Unknown",
+			"Description":"Cavalry constructs 10% faster."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name":"Emancipation",
+			"History":"The story of the Amazons originates from women who started to fend for themselves in the absence of men when faced with invaders. This ignited their fighting prowess.",
+			"Description":"For allies only, all female support units gain a small ability to fight."
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name":"Cavalry stable",
+			"Class":"",
+			"Emblem":"",
+			"History":"Amazons forces were synonymous with cavalry-dependent warriors, hence they highly valued their stables.",
+			"Requirements":"",
+			"Phase":"",
+			"Special":"Taking the place of barracks, the stable trains cavalry and champion units."
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/amaz_civil_centre"
+		},
+		{
+			"Template": "units/amaz_infantry_javelinist_b",
+			"Count": 5
+		},
+		{
+			"Template": "units/amaz_infantry_archer_b",
+			"Count": 4
+		},
+		{
+			"Template": "units/amaz_cavalry_swordsman_b",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"Scatter",
+		"Box",
+		"Column Closed",
+		"Line Closed",
+		"Column Open",
+		"Line Open",
+		"Flank",
+		"Skirmish",
+		"Wedge",
+		"Battle Line"
+	],
+	"SelectableInGameSetup": true
+}

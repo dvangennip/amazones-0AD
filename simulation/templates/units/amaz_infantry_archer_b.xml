@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_f_infantry">
+  <Armour>
+    <Hack>3.0</Hack>
+    <Pierce>2.0</Pierce>
+    <Crush>3.0</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+      <Hack>0.0</Hack>
+      <Pierce>20.0</Pierce>
+      <Crush>0.0</Crush>
+      <MaxRange>50.0</MaxRange>
+      <MinRange>10.0</MinRange>
+      <ProjectileSpeed>65.0</ProjectileSpeed>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Spread>2.0</Spread>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <RestrictedClasses datatype="tokens">StoneWall</RestrictedClasses>
+      <Bonuses>
+		<BonusPrimary>
+		  <Classes>Infantry Sword</Classes>
+		  <Multiplier>2.0</Multiplier>
+		</BonusPrimary>
+		<BonusSecondary>
+		  <Classes>Cavalry Spear</Classes>
+		  <Multiplier>1.5</Multiplier>
+		</BonusSecondary>
+	  </Bonuses>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>7.5</BuildTime>
+    <Resources>
+      <wood>20</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>amaz</Civ>
+	<SelectionGroupName>units/amaz_infantry_archer_b</SelectionGroupName>
+	<Classes datatype="tokens">Ranged Bow</Classes>
+	<GenericName>Archer</GenericName>
+    <SpecificName>Amazon Archer</SpecificName>
+    <Icon>units/pers_infantry_archer.png</Icon>
+    <History>Archers were the core of the Persian infantry, often going into battle with spearmen equipped with spara, whom they heavily outnumbered. Although powerful, the Persian recurved bow was cursed with light arrows that had trouble piercing the armor of heavily armed opponents. But the huge numbers loosed in each volley were more than enough to alarm even the most armored enemy.</History>
+    <Tooltip>Counters: 2x vs. Swordsmen, 1.5x vs. Cavalry Spearmen. Countered by: Cavalry Swordsmen, Cavalry Skirmishers.</Tooltip>
+  </Identity>
+  <Loot>
+    <wood>4</wood>
+  </Loot>
+  <Promotion>
+    <Entity>units/amaz_infantry_archer_a</Entity>
+    <RequiredXp>150</RequiredXp>
+  </Promotion>
+  <Sound>
+    <SoundGroups>
+      <attack>attack/weapon/arrowfly.xml</attack>
+      <attack_impact>attack/impact/arrow_metal.xml</attack_impact>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>8.5</WalkSpeed>
+    <Run>
+      <Speed>20</Speed>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/amazones/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical_ship_fishing">
+  <Identity>
+    <Civ>amaz</Civ>
+    <SpecificName>Amazone fishing boat</SpecificName>
+    <History>TBD</History>
+    <Icon>units/hele_ship_fishing.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/amazones/fishing_boat.xml</Actor>
+  </VisualActor>
+</Entity>

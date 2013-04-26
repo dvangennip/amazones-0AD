@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <stone>270</stone>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="11.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2200</Max>
+  </Health>
+  <Identity>
+    <Civ>amaz</Civ>
+    <SpecificName>Neṓs</SpecificName>
+    <History>The Hellenes built marvelous temples in order to honour their polytheistic pantheon. While all gods were venerated, a specific patron deity was supposed to watch over each polis.</History>
+     <Tooltip>Build this temple to greatly increase the loyalty of your buildings and female-citizens (helps prevent their capture). Train heroines.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="19.0" depth="19.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/amaz_hero_orithyia
+    </Entities>
+  </ProductionQueue>
+  <TerritoryDecay>
+    <HealthDecayRate>3</HealthDecayRate>
+  </TerritoryDecay>
+  <VisualActor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+    <Actor>structures/romans/temple_vesta.xml</Actor>
+  </VisualActor>
+</Entity>

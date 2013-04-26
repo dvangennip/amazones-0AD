@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_mechanical">
+  <Armour>
+    <Hack>20.0</Hack>
+    <Pierce>40</Pierce>
+    <Crush>10.0</Crush>
+  </Armour>
+  <Cost>
+    <BuildTime>50</BuildTime>
+    <Resources>
+      <wood>400</wood>
+      <stone>100</stone>
+      <metal>150</metal>
+    </Resources>
+    <Population>5</Population>
+  </Cost>
+  <Footprint replace="">
+    <Square width="12.0" depth="17.0"/>
+    <Height>4.5</Height>
+  </Footprint>
+  <Health>
+    <Max>800</Max>
+  </Health>
+  <Identity>
+    <GenericName>Packed civil centre</GenericName>
+    <Tooltip>When unpacked, this unit transforms into a civil centre.</Tooltip>
+  </Identity>
+  <Loot>
+    <xp>500</xp>
+    <food>0</food>
+    <wood>50</wood>
+    <stone>10</stone>
+    <metal>20</metal>
+  </Loot>
+  <Obstruction>
+    <Unit radius="4.0"/>
+  </Obstruction>
+   <Pack>
+    <Entity>structures/{civ}_civil_centre</Entity>
+    <Time>30000</Time>
+    <State>packed</State>
+  </Pack>
+  <Position>
+    <Anchor>pitch-roll</Anchor>
+  </Position>
+  <Sound>
+    <SoundGroups>
+      <select>attack/siege/siege_select.xml</select>
+      <order_walk>attack/siege/ram_move.xml</order_walk>
+    <trained>attack/siege/ram_move.xml</trained>
+    </SoundGroups>
+  </Sound>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>circle/256x256.png</MainTexture>
+        <MainTextureMask>circle/256x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <StatusBars>
+    <BarWidth>4.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+  </StatusBars>
+  <UnitAI> 
+    <DefaultStance>passive</DefaultStance> 
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed>5.5</WalkSpeed>
+    <Run>
+      <Speed>10.0</Speed>
+    </Run>
+  </UnitMotion>
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+</Entity>

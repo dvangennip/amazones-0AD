@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+  </BuildingAI>
+  <BuildRestrictions>
+    <Distance>
+      <FromCategory>CivilCentre</FromCategory>
+      <MinDistance>100</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="14.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+  </Health>
+  <Identity>
+    <Civ>amaz</Civ>
+    <SpecificName>Central yurt</SpecificName>
+    <History>The Scythian Amazones were an nomadic tribe, which is reflected in their central building. Essentially a large tent, it could be packed and moved if so desired.</History>
+    <Tooltip>Build to acquire large tracts of territory. Train citizens. Garrison: 20.</Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <Pack>
+    <Entity>units/amaz_mechanical_civcenter_packed</Entity>
+    <Time>30000</Time>
+    <State>unpacked</State>
+  </Pack>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_support_female_citizen
+      units/amaz_infantry_swordsman_b
+      units/amaz_infantry_javelinist_b
+      units/amaz_infantry_archer_b
+      units/amaz_cavalry_swordsman_b
+    </Entities>
+    <Technologies datatype="tokens">
+      nomadic_expertise
+      pair_gather_01
+      pair_gather_02
+      pair_gather_03
+      pair_gather_wood_01
+      gather_wicker_baskets
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryInfluence>
+    <Radius>80</Radius>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>70</Range>
+  </Vision>
+  <VisualActor>
+  	<Actor>structures/amazones/civil_centre.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

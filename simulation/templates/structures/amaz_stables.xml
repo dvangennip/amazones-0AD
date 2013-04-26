@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <BuildRestrictions>
+    <Territory>own ally neutral</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <wood>250</wood>
+      <stone>50</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="22.0" depth="20.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2500</Max>
+  </Health>
+  <Identity>
+    <Civ>amaz</Civ>
+	<GenericName>Cavalry Stables</GenericName>
+    <SpecificName>Tavileh</SpecificName>
+    <History>Cavalry was primarily used as an elite assault force by the Persians.</History>
+	<Tooltip>Train citizen-cavalry and champion units.</Tooltip>
+    <Icon>structures/pers_stable.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="18.0" depth="16.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/amaz_cavalry_swordsman_b
+      units/amaz_champion_cavalry_spearman
+      units/amaz_mechanical_civcenter_packed
+    </Entities>
+    <Technologies datatype="tokens">
+	  pair_inf_01
+	  pair_inf_02
+	  pair_cav_01
+    pair_champ_02
+    </Technologies>
+  </ProductionQueue>
+  <TerritoryDecay>
+    <HealthDecayRate>3</HealthDecayRate>
+  </TerritoryDecay>
+  <VisualActor>
+    <Actor>structures/persians/stables.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>
