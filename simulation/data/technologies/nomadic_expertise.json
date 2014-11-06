@@ -5,8 +5,9 @@
 	"requirements": {"tech": "phase_town"},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "blocks_three.png",
-	"researchTime": 30,
+	"researchTime": 50,
 	"tooltip": "Territory decay -50% for all buildings.",
-	"modifications": [{"value": "TerritoryDecay/HealthDecayRate", "multiplier": 0.5}],
-	"affects": ["Structure"]
+	"modifications": [{"value": "TerritoryDecay/HealthDecayRate", "multiply": 0.5}],
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

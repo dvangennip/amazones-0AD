@@ -18,6 +18,12 @@
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      -units/{civ}_support_female_citizen_house
+      units/{civ}_infantry_archer_b
+    </Entities>
+  </ProductionQueue>
   <TerritoryDecay>
     <HealthDecayRate>3</HealthDecayRate>
   </TerritoryDecay>

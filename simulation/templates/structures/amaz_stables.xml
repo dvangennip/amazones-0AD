@@ -31,13 +31,22 @@
     <Entities datatype="tokens">
       units/amaz_cavalry_swordsman_b
       units/amaz_champion_cavalry_spearman
-      units/amaz_mechanical_civcenter_packed
+      special_units/amaz_mechanical_civcenter_packed
     </Entities>
     <Technologies datatype="tokens">
-	  pair_inf_01
-	  pair_inf_02
-	  pair_cav_01
-    pair_champ_02
+      attack_infantry_melee_01
+      attack_infantry_melee_02
+      attack_infantry_ranged_01
+      attack_infantry_ranged_02
+      attack_cavalry_melee_01
+      attack_cavalry_melee_02
+      attack_cavalry_ranged_01
+      attack_cavalry_ranged_02
+      armor_infantry_01
+      armor_infantry_02
+      armor_cav_01
+      armor_cav_02
+      armor_hero_01
     </Technologies>
   </ProductionQueue>
   <TerritoryDecay>

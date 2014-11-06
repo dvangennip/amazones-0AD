@@ -1,71 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry_archer">
-  <Attack>
-    <Melee>
-      <Hack>14.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>4.0</MaxRange>
-      <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-      <RestrictedClasses datatype="tokens">StoneWall</RestrictedClasses>
-      <Bonuses>
-        <BonusPrimary>
-          <Classes>Infantry Spear</Classes>
-          <Multiplier>2.0</Multiplier>
-        </BonusPrimary>
-        <BonusSecondary>
-          <Classes>Infantry Javelin</Classes>
-          <Multiplier>1.5</Multiplier>
-        </BonusSecondary>
-        <BonusTertiary>
-          <Classes>Elephant</Classes>
-          <Multiplier>1.25</Multiplier>
-        </BonusTertiary>
-      </Bonuses>
-    </Melee>
-    <Charge>
-      <Hack>28.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>0.0</Crush>
-      <MaxRange>4.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
-      <RestrictedClasses datatype="tokens">StoneWall</RestrictedClasses>
-      <Bonuses>
-        <BonusPrimary>
-          <Classes>Infantry Spear</Classes>
-          <Multiplier>2.0</Multiplier>
-        </BonusPrimary>
-        <BonusSecondary>
-          <Classes>Infantry Javelin</Classes>
-          <Multiplier>1.5</Multiplier>
-        </BonusSecondary>
-        <BonusTertiary>
-          <Classes>Elephant</Classes>
-          <Multiplier>1.25</Multiplier>
-        </BonusTertiary>
-      </Bonuses>
-    </Charge>
-  </Attack>
   <Auras>
-    <Courage>
-      <Radius>20</Radius>
-      <Bonus>5</Bonus>
-    </Courage>
+    <Aura1>
+      <Type>global</Type>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <UnitMotion.WalkSpeed> <Multiply>1.1</Multiply> </UnitMotion.WalkSpeed>
+        <Attack.Ranged.Pierce> <Add>2</Add> </Attack.Ranged.Pierce>
+        <Attack.Melee.Hack> <Add>2</Add> </Attack.Melee.Hack>
+      </Modifications>
+      <AuraName>Courage Aura</AuraName>
+    </Aura1>
+    <Aura2>
+      <Type>range</Type>
+      <Radius>60</Radius>
+      <Affects>Unit</Affects>
+      <Modifications>
+        <Health.RegenRate> <Add>1</Add> </Health.RegenRate>
+      </Modifications>
+      <AuraName>Hero Aura</AuraName>
+      <AuraDescription>Let all units heal at 1 HP per second</AuraDescription>
+    </Aura2>
   </Auras>
   <Identity>
     <Civ>amaz</Civ>
-    <Classes datatype="tokens">Melee Sword</Classes>
     <SelectionGroupName>units/amaz_hero_orithyia</SelectionGroupName>
     <SpecificName>Orithyia</SpecificName>
     <Tooltip>Heroine Aura: Unknown</Tooltip>
     <History>Orithyia, or the woman raging in the mountains, was the daughter of Marpesia. Upon the death of her mother, Orithyia became the new queen of the Amazons. She was famous for her perpetual virginity. Her war techniques were outstanding and brought much honor to the Amazon empire.</History>
     <Icon>units/celt_hero_boudicca.png</Icon>
   </Identity>
-  <Obstruction>
-    <Unit radius="1.5"/>
-  </Obstruction>
   <Sound>
     <SoundGroups>
       <select>voice/hellenes/civ/female/civ_female_select.xml</select>
@@ -77,12 +41,6 @@
       <death>actor/human/death/female_death.xml</death>
     </SoundGroups>
   </Sound>
-  <UnitMotion>
-    <WalkSpeed>15.0</WalkSpeed>
-    <Run>
-      <Speed>30.0</Speed>
-    </Run>
-  </UnitMotion>
   <VisualActor>
     <Actor>units/amazones/orithyia_horse.xml</Actor>
   </VisualActor>

@@ -5,7 +5,7 @@
   </BuildingAI>
   <BuildRestrictions>
     <Distance>
-      <FromCategory>CivilCentre</FromCategory>
+      <FromClass>CivilCentre</FromClass>
       <MinDistance>100</MinDistance>
     </Distance>
   </BuildRestrictions>
@@ -40,11 +40,6 @@
     </Entities>
     <Technologies datatype="tokens">
       nomadic_expertise
-      pair_gather_01
-      pair_gather_02
-      pair_gather_03
-      pair_gather_wood_01
-      gather_wicker_baskets
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

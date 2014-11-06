@@ -1,0 +1,9 @@
+{
+	"name": "amazones",
+	"version": "0.1",
+	"label": "Amazones",
+	"url": "play0ad.com",
+	"description": "A testmod that brings the myth of women fighters, the amazones, to 0 A.D.",
+	"dependencies": ["0ad"],
+	"type": "mod"
+}

@@ -28,6 +28,9 @@
     <Entities datatype="tokens">
       units/amaz_hero_orithyia
     </Entities>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+    </Technologies>
   </ProductionQueue>
   <TerritoryDecay>
     <HealthDecayRate>3</HealthDecayRate>
