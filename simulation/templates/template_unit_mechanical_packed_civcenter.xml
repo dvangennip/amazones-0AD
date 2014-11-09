@@ -19,7 +19,7 @@
     <Height>4.5</Height>
   </Footprint>
   <Health>
-    <Max>800</Max>
+    <Max>450</Max>
   </Health>
   <Identity>
     <GenericName>Packed civil centre</GenericName>

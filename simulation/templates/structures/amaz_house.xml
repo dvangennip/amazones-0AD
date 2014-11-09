@@ -23,6 +23,11 @@
       -units/{civ}_support_female_citizen_house
       units/{civ}_infantry_archer_b
     </Entities>
+    <Technologies datatype="tokens">
+      amaz_health_females_01
+      -health_females_01
+      -unlock_females_house
+    </Technologies>
   </ProductionQueue>
   <TerritoryDecay>
     <HealthDecayRate>3</HealthDecayRate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Identity>
+    <Civ>amaz</Civ>
+    <Classes datatype="tokens">Female</Classes>
+    <SelectionGroupName>units/amaz_champion_cavalry_archer</SelectionGroupName>
+    <GenericName>Amazone Heavy Cavalry Archer</GenericName>
+    <SpecificName>Amazone Heavy Cavalry Archer</SpecificName>
+    <Icon>units/pers_champion_cavalry.png</Icon>
+    <History>Cavalry archers are at the core of the stories about Scythian tribes, and especially in the myths of the Amazones, archers on horseback take a special place.</History>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>voice/hellenes/civ/female/civ_female_select.xml</select>
+      <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
+      <order_attack>voice/hellenes/civ/female/civ_female_go_out_against.xml</order_attack>
+      <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
+      <death>actor/human/death/female_death.xml</death>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed>13.5</WalkSpeed>
+    <Run>
+      <Speed>25.0</Speed>
+      <Range>1000.0</Range>
+      <RangeMin>10.0</RangeMin>
+    </Run>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/amazones/champion_cavalry_archer.xml</Actor>
+  </VisualActor>
+</Entity>

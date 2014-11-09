@@ -11,19 +11,17 @@
 		<Fog>
 			<FogFactor>0</FogFactor>
 			<FogThickness>0.5</FogThickness>
-			<FogColour r="0.8" g="0.8" b="0.898039"/>
+			<FogColour r="0.8" g="0.8" b="0.894118"/>
 		</Fog>
 		<Water>
 			<WaterBody>
-				<Type>default</Type>
+				<Type>ocean</Type>
 				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
 				<Height>5</Height>
-				<Shininess>150</Shininess>
 				<Waviness>8</Waviness>
 				<Murkiness>0.45</Murkiness>
-				<Tint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTint r="0.27451" g="0.294118" b="0.584314"/>
-				<ReflectionTintStrength>0</ReflectionTintStrength>
+				<WindAngle>0</WindAngle>
 			</WaterBody>
 		</Water>
 		<Postproc>
@@ -35,8 +33,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="343.584" y="144.033" z="207.745"/>
-		<Rotation angle="-0.113335"/>
+		<Position x="304.203" y="96.3474" z="324.663"/>
+		<Rotation angle="-0.17568"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -48,7 +46,7 @@
     "demo"
   ],
   "LockTeams": false,
-  "Name": "Amazones Sandbox",
+  "Name": "Sandbox - Amazones",
   "PlayerData": [
     {
       "AI": "",
@@ -69,7 +67,7 @@
       "Team": -1
     },
     {
-      "AI": "qbot",
+      "AI": "petra",
       "Civ": "pers",
       "Colour": {
         "b": 68,
@@ -80,6 +78,7 @@
       "Team": -1
     }
   ],
+  "Preview": "",
   "RevealMap": false
 }
 ]]></ScriptSettings>
@@ -3213,13 +3212,6 @@
 			<Orientation y="-2.99418"/>
 			<Actor seed="13680"/>
 		</Entity>
-		<Entity uid="543">
-			<Template>units/amaz_mechanical_civcenter_packed</Template>
-			<Player>1</Player>
-			<Position x="260.51972" z="339.03275"/>
-			<Orientation y="1.82607"/>
-			<Actor seed="60897"/>
-		</Entity>
 		<Entity uid="544">
 			<Template>structures/amaz_dock</Template>
 			<Player>1</Player>
@@ -3247,6 +3239,139 @@
 			<Position x="215.98469" z="582.42103"/>
 			<Orientation y="1.79354"/>
 			<Actor seed="17176"/>
+		</Entity>
+		<Entity uid="548">
+			<Template>units/amaz_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="277.04355" z="335.12409"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4826"/>
+		</Entity>
+		<Entity uid="549">
+			<Template>units/amaz_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="279.17386" z="337.57383"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32102"/>
+		</Entity>
+		<Entity uid="550">
+			<Template>units/amaz_infantry_swordsman_b</Template>
+			<Player>1</Player>
+			<Position x="281.73996" z="340.21122"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44134"/>
+		</Entity>
+		<Entity uid="551">
+			<Template>units/amaz_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="280.25425" z="332.01423"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49578"/>
+		</Entity>
+		<Entity uid="552">
+			<Template>units/amaz_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="283.55097" z="335.2368"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27253"/>
+		</Entity>
+		<Entity uid="553">
+			<Template>units/amaz_infantry_swordsman_a</Template>
+			<Player>1</Player>
+			<Position x="286.75754" z="338.06107"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="21749"/>
+		</Entity>
+		<Entity uid="554">
+			<Template>units/amaz_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="283.63111" z="329.08942"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54342"/>
+		</Entity>
+		<Entity uid="555">
+			<Template>units/amaz_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="287.02573" z="332.11661"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41700"/>
+		</Entity>
+		<Entity uid="556">
+			<Template>units/amaz_infantry_swordsman_e</Template>
+			<Player>1</Player>
+			<Position x="290.39921" z="335.2368"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53355"/>
+		</Entity>
+		<Entity uid="557">
+			<Template>units/amaz_champion_cavalry_archer</Template>
+			<Player>1</Player>
+			<Position x="277.32834" z="387.85645"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23611"/>
+		</Entity>
+		<Entity uid="558">
+			<Template>units/amaz_champion_cavalry_archer</Template>
+			<Player>1</Player>
+			<Position x="272.34327" z="383.19455"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45655"/>
+		</Entity>
+		<Entity uid="559">
+			<Template>units/amaz_champion_cavalry_archer</Template>
+			<Player>1</Player>
+			<Position x="267.7863" z="377.20752"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58823"/>
+		</Entity>
+		<Entity uid="560">
+			<Template>units/amaz_champion_cavalry_archer</Template>
+			<Player>1</Player>
+			<Position x="264.13465" z="372.21396"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35992"/>
+		</Entity>
+		<Entity uid="561">
+			<Template>units/amaz_champion_cavalry_archer</Template>
+			<Player>1</Player>
+			<Position x="261.24341" z="365.76703"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59104"/>
+		</Entity>
+		<Entity uid="562">
+			<Template>structures/pers_defense_tower</Template>
+			<Player>1</Player>
+			<Position x="251.89036" z="340.21537"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28469"/>
+		</Entity>
+		<Entity uid="563">
+			<Template>structures/pers_defense_tower</Template>
+			<Player>1</Player>
+			<Position x="346.7014" z="383.34498"/>
+			<Orientation y="3.05683"/>
+			<Actor seed="62416"/>
+		</Entity>
+		<Entity uid="564">
+			<Template>structures/pers_defense_tower</Template>
+			<Player>1</Player>
+			<Position x="255.9058" z="433.3495"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17870"/>
+		</Entity>
+		<Entity uid="565">
+			<Template>structures/pers_defense_tower</Template>
+			<Player>1</Player>
+			<Position x="302.8956" z="318.88526"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36578"/>
+		</Entity>
+		<Entity uid="566">
+			<Template>structures/pers_wonder</Template>
+			<Player>0</Player>
+			<Position x="349.8837" z="837.28534"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="32780"/>
 		</Entity>
 	</Entities>
 	<Paths/>

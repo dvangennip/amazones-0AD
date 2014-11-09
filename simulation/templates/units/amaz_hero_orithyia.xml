@@ -24,6 +24,7 @@
   </Auras>
   <Identity>
     <Civ>amaz</Civ>
+    <Classes datatype="tokens">Female</Classes>
     <SelectionGroupName>units/amaz_hero_orithyia</SelectionGroupName>
     <SpecificName>Orithyia</SpecificName>
     <Tooltip>Heroine Aura: Unknown</Tooltip>

@@ -9,6 +9,15 @@
       <MinDistance>100</MinDistance>
     </Distance>
   </BuildRestrictions>
+  <Cost>
+    <BuildTime>300</BuildTime>
+    <Resources>
+      <food>0</food>
+      <wood>300</wood>
+      <stone>300</stone>
+      <metal>300</metal>
+    </Resources>
+  </Cost>
   <Footprint replace="">
     <Circle radius="14.0"/>
     <Height>8.0</Height>
@@ -40,6 +49,22 @@
     </Entities>
     <Technologies datatype="tokens">
       nomadic_expertise
+      gather_wicker_baskets
+      gather_farming_plows
+      gather_farming_training
+      gather_farming_fertilizer
+      gather_lumbering_ironaxes
+      gather_lumbering_strongeraxes
+      gather_lumbering_sharpaxes
+      gather_mining_servants
+      gather_mining_serfs
+      gather_mining_slaves
+      gather_mining_wedgemallet
+      gather_mining_shaftmining
+      gather_mining_silvermining
+      gather_capacity_basket
+      gather_capacity_wheelbarrow
+      gather_capacity_carts
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

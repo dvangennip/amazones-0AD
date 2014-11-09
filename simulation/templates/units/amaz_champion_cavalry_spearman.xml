@@ -7,6 +7,7 @@
   </Cost>
   <Identity>
   	<Civ>amaz</Civ>
+    <Classes datatype="tokens">Female</Classes>
   	<SelectionGroupName>units/amaz_champion_cavalry_spearman</SelectionGroupName>
 	<GenericName>Xystophoros Amazone</GenericName>
     <SpecificName>Hetaîros</SpecificName>

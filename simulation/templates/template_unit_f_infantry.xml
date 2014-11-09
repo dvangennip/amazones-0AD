@@ -17,6 +17,7 @@
       structures/{civ}_stables
       structures/{civ}_temple
       structures/pers_defense_tower
+      structures/{civ}_civil_centre
     </Entities>
   </Builder>
   <Cost>

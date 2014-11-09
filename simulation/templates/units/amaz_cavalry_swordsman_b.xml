@@ -2,8 +2,9 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>amaz</Civ>
-	<SelectionGroupName>units/amaz_cavalry_swordsman_b</SelectionGroupName>
-	<GenericName>Hyrcanian Cavalry</GenericName>
+    <Classes datatype="tokens">Female</Classes>
+    <SelectionGroupName>units/amaz_cavalry_swordsman_b</SelectionGroupName>
+    <GenericName>Hyrcanian Cavalry</GenericName>
     <SpecificName>Varkaniya Asabara</SpecificName>
     <History>The Hyrcanians were the light cavalry of the Achaemenid Great Kings. These men were of superb quality, and are mentioned in every major Persian campaign. Their homeland of Hyrcania bordering the Caspian Sea was both a lush fertile rain forest and foreboding mountain country.</History>
     <Icon>units/pers_cavalry_swordsman.png</Icon>
@@ -16,6 +17,7 @@
       <select>voice/hellenes/civ/female/civ_female_select.xml</select>
       <order_walk>voice/hellenes/civ/female/civ_female_walk.xml</order_walk>
       <order_attack>voice/hellenes/civ/female/civ_female_go_out_against.xml</order_attack>
+      <order_gather>voice/hellenes/civ/female/civ_female_gather_together.xml</order_gather>
       <order_garrison>voice/hellenes/civ/female/civ_female_garrison.xml</order_garrison>
       <death>actor/human/death/female_death.xml</death>
 	</SoundGroups>
