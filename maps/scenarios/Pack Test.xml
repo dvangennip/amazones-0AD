@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scenario version="5">
+<Scenario version="6">
 	<Environment>
 		<SkySet>default</SkySet>
-		<SunColour r="0.74902" g="0.74902" b="0.74902"/>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
 		<SunElevation angle="0.785398"/>
 		<SunRotation angle="-0.785396"/>
-		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
-		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
 		<Fog>
 			<FogFactor>0</FogFactor>
 			<FogThickness>0.5</FogThickness>
-			<FogColour r="0.8" g="0.8" b="0.894118"/>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
 		</Fog>
 		<Water>
 			<WaterBody>
 				<Type>default</Type>
-				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
 				<Height>5</Height>
 				<Shininess>150</Shininess>
 				<Waviness>8</Waviness>
@@ -54,7 +54,7 @@
     {
       "AI": "",
       "Civ": "athen",
-      "Colour": {
+      "Color": {
         "b": 200,
         "g": 46,
         "r": 46
@@ -71,7 +71,7 @@
     {
       "AI": "qbot-wc",
       "Civ": "cart",
-      "Colour": {
+      "Color": {
         "b": 20,
         "g": 20,
         "r": 150

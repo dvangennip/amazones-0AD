@@ -12,8 +12,12 @@ I wanted to try my hand at modding 0 A.D. and the Amazons were a fun starting po
 * Creating female units from houses is a default capability (archers only), no technology needs researching first. Given that all female units are fighting units, this gives a tremendous capacity to create lots of units very fast.
 * The technology that gives 10% health increase for female units can put them ahead of most competitors.
 
+### Compatibility with 0 A.D.
+* Alpha 18 and lower: Not compatible.
+* Alpha 19: √ (should work once released).
+* SVN: Tested with SVN revision 16491 (2 April 2015).
 
-### Usage
+### How to use this mod
 Download this mod as a [zip file](https://github.com/dvangennip/amazones-0AD/archive/master.zip). Unzip it in the mods folder of 0 A.D., so it sits next to the `public` mod (you may want to rename it to `amazones` instead of `amazones-0AD-master`). Alternatively, you could use git directly to get the mod on your computer. Then run the game and enable the mod via the Mod Selection window, or run the game with an additional command line parameter (`-mod=amazones`) to indicate you want to use an extra mod as follows:
 
 ````sh
